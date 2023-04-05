@@ -1,29 +1,28 @@
 import '@/styles/globals.css';
-import {Poppins} from 'next/font/google';
 import Sidebar from '@/components/Sidebar';
-import PlayMusic from '@/components/playMusic';
-import Header from '@/components/header';
+import PlayMusic from '@/components/(play-music)/playMusic';
+import Header from '@/components/(header)/header';
 import StoreProvider from '@/redux/storeProvider';
+import { Poppins } from 'next/font/google';
 
-
-const flowCircular = Poppins({
+const poppins = Poppins({
     subsets: ['latin'],
-    weight: ['200', '300', '400', '500', '600', '700']
-});
-
+    display: 'swap',
+    weight: ["200", "300", "400", "500"]
+})
 export default function RootLayout({children}) {
     return (
-        <html lang="en" className={flowCircular.className}>
-        <body className="flex bg-hbg">
-        <StoreProvider>
-            <Sidebar/>
-            <div>
-                <Header/>
-                <main>{children}</main>
-            </div>
-            <PlayMusic/>
-        </StoreProvider>
-        </body>
+        <html lang="en" className={poppins.className}>
+            <body className="bg-hbg">
+                <StoreProvider>
+                    <Sidebar/>
+                        <>
+                            <Header/>
+                            <main>{children}</main>
+                        </>
+                    <PlayMusic/>
+                </StoreProvider>
+            </body>
         </html>
     );
 }

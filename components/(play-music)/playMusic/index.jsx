@@ -1,7 +1,7 @@
 
 import Left from '@/components/(play-music)/Left';
-import Right from '../(play-music)/Right';
-import Middle from '../(play-music)/Middle';
+import Right from '../Right';
+import Middle from '../Middle';
 
 
 const PlayMusic = () => {

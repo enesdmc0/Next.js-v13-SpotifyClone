@@ -43,7 +43,7 @@ const Sidebar = () => {
                    ))}
                </div>
            </div>
-            <div className="overflow-y-scroll flex flex-col gap-3 text-gray-300 hover:text-white focus:text-white">
+            <div className="overflow-y-auto flex flex-col gap-3 text-gray-300 hover:text-white focus:text-white">
                 {playList?.map(item => (
                     <Link href={`/playlist/${item.id}`}>{item.name}</Link>
                 ))}
