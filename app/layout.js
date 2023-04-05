@@ -1,5 +1,5 @@
 import '@/styles/globals.css';
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/(sidebar)/Sidebar';
 import PlayMusic from '@/components/(play-music)/playMusic';
 import Header from '@/components/(header)/header';
 import StoreProvider from '@/redux/storeProvider';

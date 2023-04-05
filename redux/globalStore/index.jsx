@@ -2,7 +2,8 @@ import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = {
     headerDropOpen: false,
-    musicPlayOpen: false
+    musicPlayOpen: false,
+    user: false
 }
 
 const globalSlice = createSlice({
@@ -18,7 +19,7 @@ const globalSlice = createSlice({
         },
         playToggle: (state, action) => {
 
-        }
+        },
     }
 });
 
