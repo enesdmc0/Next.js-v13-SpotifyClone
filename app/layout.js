@@ -8,19 +8,19 @@ import { Poppins } from 'next/font/google';
 const poppins = Poppins({
     subsets: ['latin'],
     display: 'swap',
-    weight: ["200", "300", "400", "500"]
+    weight: ["200", "300", "400", "500", "600", "700", "800", "900"]
 })
-export default function RootLayout({children}) {
+export default function RootLayout({children, pathname}) {
     return (
         <html lang="en" className={poppins.className}>
             <body className="bg-hbg">
                 <StoreProvider>
-                    <Sidebar/>
+                    {pathname !== "login" || "register" && <Sidebar/>}
                         <>
-                            <Header/>
+                            {pathname !== "login" || "register" && <Header/>}
                             <main>{children}</main>
                         </>
-                    <PlayMusic/>
+                    {pathname !== "login" || "register" && <PlayMusic/>}
                 </StoreProvider>
             </body>
         </html>

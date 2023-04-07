@@ -21,13 +21,18 @@ module.exports = {
             playMusicHover: "#474141",
             goodMorningBg: "#4F4F4D",
             yourShowHover: "#282828",
-            yesil: "#1FDF64",
+            yesil: "#1ed760",
+            headerBg: "#070707",
+            font: "#e8f2fe",
+            font2: "#6a6a6a",
+            inputBg: "#E8F0FE"
 
         },
         width: {
             240: "240px",
             middle: "calc(100vw - 240px)",
-            31: "32%"
+            31: "32%",
+            450: "450px"
         },
         height: {
             90: "90px",
