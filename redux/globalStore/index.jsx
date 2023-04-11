@@ -17,7 +17,6 @@ const globalSlice = createSlice({
             state.musicPlayOpen = action.payload
 
         },
-
     }
 });
 

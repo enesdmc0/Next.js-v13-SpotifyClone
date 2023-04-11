@@ -1,5 +1,6 @@
 'use client';
 import {useState} from 'react';
+import Link from 'next/link';
 
 const RegisterForm = () => {
     const [activeGender, setActiveGender] = useState("")
@@ -16,9 +17,16 @@ const RegisterForm = () => {
     const handleClick = (name) => {
         setActiveGender(name)
     };
+
+    const handleAgreement1 = () => {
+        setAgreement1(!agreement1)
+    }
+    const handleAgreement2 = () => {
+        setAgreement2(!agreement2)
+    }
     const data = ['month', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
     return (
-        <form className="flex flex-col gap-3 border-b pb-6 border-b-font2">
+        <form className="flex flex-col gap-8 pb-6">
             {/*input1*/}
             <div className="flex flex-col gap-1">
                 <label className="font-medium text-sm">What's your email?</label>
@@ -84,23 +92,22 @@ const RegisterForm = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex group cursor-pointer items-center gap-3">
-                <div className={` ${activeGender === item.name && "border-4 border-yesil"} group-hover:border-yesil w-4 h-4 flex items-center justify-center p-1 rounded-full border`}/>
+
+            <div onClick={handleAgreement1} className="flex group cursor-pointer items-center gap-3">
+                <div className={` ${agreement1 && "border-4 border-yesil"} group-hover:border-yesil w-4 h-4 flex items-center justify-center p-1 rounded border`}/>
                 <span className="text-sm">Please send me news and offers from Spotify</span>
             </div>
-            <div className="flex group cursor-pointer items-center gap-3">
-                <div className={` ${activeGender === item.name && "border-4 border-yesil"} group-hover:border-yesil w-4 h-4 flex items-center justify-center p-1 rounded-full border`}/>
-                <span className="text-sm">Share my registration data with Spotify's content providers for marketing purposes. Note that your data may be transferred to a country outside of the EEA as described in our privacy policy.</span>
+            <div onClick={handleAgreement2} className="flex group cursor-pointer items-center gap-3">
+                <div className={` ${agreement2 && "border-4 border-yesil"} group-hover:border-yesil w-4 h-4 flex items-center justify-center p-1 rounded border`}/>
+                <span className="text-sm flex-1">Share my registration data with Spotify's content providers for marketing purposes. Note that your data may be transferred to a country outside of the EEA as described in our privacy policy.</span>
             </div>
-
-
-            <span className="underline hover:text-yesil text-sm transition-all duration-150 font-medium cursor-pointer">Forget your password?</span>
-            <div className="flex justify-between">
-                <div className="flex items-center gap-2">
-                    <input className="focus:outline focus:outline-black " type="checkbox"/>
-                    <span className="text-xs">Remember me</span>
-                </div>
-                <button className="bg-yesil rounded-full px-8 py-3 hover:scale-105 text-medium">LOG IN</button>
+            <div className="flex flex-col items-center gap-3">
+                <span className="text-11 text-center">By clicking on sign-up, you agree to Spotify's <span className="underline text-yesil cursor-pointer">Terms and Conditions of Use  </span>.</span>
+                <span className="text-11 text-center">To learn more about how Spotify collects, uses, shares and protects your personal data, please see <span className="underline text-yesil cursor-pointer">Spotify's Privacy Policy</span>.</span>
+            </div>
+            <div className="flex flex-col items-center gap-5">
+                <button className="bg-yesil rounded-full px-8 py-3 hover:scale-105 font-medium">SIGN UP</button>
+                <span>Have an account? <Link href="/login" className="text-yesil underline cursor-pointer">Log in</Link>.</span>
             </div>
         </form>
     );

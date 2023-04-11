@@ -1,8 +1,12 @@
 import React from 'react';
 import LoginContainer from '@/containers/LoginContainer';
-
+import LoginLayout from '@/components/Layout';
 const Login = () => {
-    return <LoginContainer/>
+    return (
+        <LoginLayout>
+            <LoginContainer/>
+        </LoginLayout>
+    )
 };
 
 export default Login;

@@ -3,26 +3,28 @@ import Sidebar from '@/components/(sidebar)/Sidebar';
 import PlayMusic from '@/components/(play-music)/playMusic';
 import Header from '@/components/(header)/header';
 import StoreProvider from '@/redux/storeProvider';
-import { Poppins } from 'next/font/google';
+import {Poppins} from 'next/font/google';
+import {headers} from 'next/headers';
 
 const poppins = Poppins({
     subsets: ['latin'],
     display: 'swap',
-    weight: ["200", "300", "400", "500", "600", "700", "800", "900"]
-})
-export default function RootLayout({children, pathname}) {
+    weight: ['200', '300', '400', '500', '600', '700', '800', '900']
+});
+export default function RootLayout({children}) {
+    
     return (
         <html lang="en" className={poppins.className}>
-            <body className="bg-hbg">
-                <StoreProvider>
-                    {pathname !== "login" || "register" && <Sidebar/>}
-                        <>
-                            {pathname !== "login" || "register" && <Header/>}
-                            <main>{children}</main>
-                        </>
-                    {pathname !== "login" || "register" && <PlayMusic/>}
-                </StoreProvider>
-            </body>
+        <body className="bg-hbg">
+        <StoreProvider>
+            <Sidebar/>
+            <>
+                <Header/>
+                <main>{children}</main>
+            </>
+            <PlayMusic/>
+        </StoreProvider>
+        </body>
         </html>
     );
 }

@@ -40,6 +40,9 @@ module.exports = {
         },
         rotate: {
           25: "25deg"
+        },
+        fontSize: {
+            11: "11px"
         }
     },
   },
