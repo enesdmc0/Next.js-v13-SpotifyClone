@@ -43,6 +43,9 @@ module.exports = {
         },
         fontSize: {
             11: "11px"
+        },
+        flex: {
+            2: "2"
         }
     },
   },

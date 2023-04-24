@@ -4,7 +4,7 @@ import PlayMusic from '@/components/(play-music)/playMusic';
 import Header from '@/components/(header)/header';
 import StoreProvider from '@/redux/storeProvider';
 import {Poppins} from 'next/font/google';
-import {headers} from 'next/headers';
+
 
 const poppins = Poppins({
     subsets: ['latin'],

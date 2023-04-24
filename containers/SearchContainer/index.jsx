@@ -1,10 +1,10 @@
 import React from 'react';
 import BrowseAll from '@/components/(browseAll)/browseAll';
 
-const SearchContainer = () => {
+const SearchContainer = ({search}) => {
     return (
-        <div className="flex flex-col">
-            <BrowseAll/>
+        <div>
+            <BrowseAll data={search}/>
         </div>
     );
 };

@@ -3,7 +3,6 @@ import {createSlice} from '@reduxjs/toolkit';
 const initialState = {
     headerDropOpen: false,
     musicPlayOpen: false,
-    user: false
 }
 
 const globalSlice = createSlice({
