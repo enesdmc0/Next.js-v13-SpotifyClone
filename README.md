@@ -12,7 +12,7 @@
 
 ## About The Project
 
-### Netlify Link :  [https://dmcbookingapp.netlify.app/](https://dmcbookingapp.netlify.app/)
+### Vercel Link :  
 
 
 
@@ -48,7 +48,7 @@ Contact
 - [ ✉️ enesdmcc@gmail.com]()
 - Linkedin : [https://www.linkedin.com/in/enesdemirci1](https://www.linkedin.com/in/enesdemirci1)
 
-- Project Link: [https://github.com/enesdmc0/MERN-BookingApp](https://github.com/enesdmc0/MERN-BookingApp)
+- Project Link: [https://github.com/enesdmc0/Next.js-v13-MERN-SpotifyClone/](https://github.com/enesdmc0/Next.js-v13-MERN-SpotifyClone/)
 
   
 
