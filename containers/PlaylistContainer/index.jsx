@@ -1,10 +1,10 @@
-import React from 'react';
-import Playlist from '@/components/(playlist)/playlist';
+import Playlist from '@/components/playlist/playlist';
 
-const PlaylistContainer = ({id, playlist}) => {
+
+const PlaylistContainer = ({id, playlist, playlistDetail}) => {
     return (
         <div>
-            <Playlist id={id} data={playlist}/>
+            <Playlist id={id} data={playlist} playlistDetail={playlistDetail}/>
         </div>
     );
 };

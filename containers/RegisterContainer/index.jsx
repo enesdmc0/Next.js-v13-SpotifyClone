@@ -1,6 +1,6 @@
 import React from 'react';
-import RegisterHeader from '@/components/(register)/RegisterHeader';
-import RegisterBottom from '@/components/(register)/RegisterBottom';
+import RegisterHeader from '@/components/register/RegisterHeader';
+import RegisterBottom from '@/components/register/RegisterBottom';
 
 const RegisterContainer = () => {
     return (

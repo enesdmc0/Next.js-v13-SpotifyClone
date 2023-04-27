@@ -1,5 +1,5 @@
-import React from 'react';
-import BrowseAll from '@/components/(browseAll)/browseAll';
+import BrowseAll from '@/components/browseAll/browseAll';
+
 
 const SearchContainer = ({search}) => {
     return (

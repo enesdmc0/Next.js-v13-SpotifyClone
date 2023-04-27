@@ -1,0 +1,85 @@
+{
+  "playlistDetail": [
+    {
+      "id": 1,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Uyursam Geçer Mi?",
+      "author": "Eskitilmiş Yaz",
+      "album": "Uyursam Geçer Mi?",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 2,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Vurgunum",
+      "author": "Murat Göğebakan",
+      "album": "Aşkın Gözyaşları",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 3,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Yaralı",
+      "author": "Murat Göğebakan",
+      "album": "Yaralı",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 4,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Paramparça",
+      "author": "Teoman",
+      "album": "17",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 5,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Kusura Bakma",
+      "author": "Tuğkan",
+      "album": "Kusura Bakma",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 6,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Unutulacak Dünler",
+      "author": "Gazapizm",
+      "album": "Hiza",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 7,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Işgal",
+      "author": "Kaldık Böyle",
+      "album": "Işgal",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 8,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Yaralarımı Sar",
+      "author": "Meg",
+      "album": "Yaralarımı Sar",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    },
+    {
+      "id": 9,
+      "image": "https://plus.unsplash.com/premium_photo-1679436987388-52ece05745df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "music": "Sonsuz",
+      "author": "Pentagram",
+      "album": "Akustik",
+      "dateAdded": "Apr 3, 2021",
+      "duration": "4:34"
+    }
+  ]
+}
