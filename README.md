@@ -16,9 +16,6 @@
 
 
 
-<video autoplay src="./images/video.webm"></video>
-
-
 
 ![][img-1]
 
