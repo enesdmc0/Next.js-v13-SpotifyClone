@@ -12,7 +12,7 @@
 
 ## About The Project
 
-### Vercel Link :  
+### Vercel Link :  https://next-js-v13-spotify-clone.vercel.app/
 
 
 
